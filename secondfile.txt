@@ -2,3 +2,12 @@ hello
 dear sir
 this is for practice
 from payal
+/ git init: This command is used to initialize a new Git repository in a directory. 
+// git clone: This command is used to create a copy of an existing Git repository on your local machine. 
+// git add: This command is used to stage changes to your files in preparation for committing them to the repository.
+ // git commit: This command is used to commit your changes to the repository with a message describing the changes made. 
+// git push: This command is used to push your committed changes to a remote repository, such as on GitHub or Bitbucket. 
+// git pull: This command is used to pull changes from a remote repository into your local repository.
+ // git status: This command is used to check the current status of your repository, including any changes that have been made but not yet committed. 
+// git log: This command is used to display a log of all the commits that have been made to the repository. 
+// git branch: This command is used to display a list of all branch.
