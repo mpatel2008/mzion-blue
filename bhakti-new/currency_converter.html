@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="currency_conveter.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <script src="currency_converter.js">
+    </script>
+</head>
+
+<body>
+
+    <p> Curreny Convertion</p>
+    <div class="main_box">
+
+        <input type="number" placeholder="USD" id="c_inr" />
+        <button onclick="fun_change_inr()">Change to INR</button>
+        <h1>Result of USD to INR - <span id="usd_inr"></span></h1>
+        <br /><br />
+
+        <input type="number" placeholder="INR" id="c_usd" />
+        <button onclick="fun_change_usd()">Change to USD</button>
+        <h1>Result of INR to USD - <span id="inr_usd"></span></h1>
+        <br /><br />
+
+        <input type="number" placeholder="value 1" id="v_1" />
+        <input type="number" placeholder="value 2" id="v_2" />
+        <button onclick="fun_multi_1()"> Multiplication </button>
+        <button onclick="fun_add_1()"> Addition </button>
+        <h1>Result of Multiplication - <span id="result_multi"></span></h1>
+        <h1>Result of Addition - <span id="result_add"></span></h1>
+    </div>
+</body>
+
+</html>
