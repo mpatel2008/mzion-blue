@@ -1,0 +1,18 @@
+div{
+    background-color: rgb(149, 228, 198);
+    height: 250px;
+}
+ul {
+    display: flex;
+   
+}
+li {
+    padding: 10px;
+    display: flex;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+li:hover {
+    background-color: rgb(206, 206, 109);
+}
